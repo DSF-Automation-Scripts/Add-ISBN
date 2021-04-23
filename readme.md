@@ -2,6 +2,20 @@
 ## **Intro**
 This script is designed to perform simple, mass changes to DSF. Changes such as altering a single setting, or adding one additional field of information that would normally take massive amounts of man-hours can be done in the background quickly by this script. This document outlines the general procedures behind altering the code to work for specific cases, and maintaining code through future updates and changes to the DSF website
 
+
+## **Installation**
+This script relies on the following libraries to work:
+- [Puppeteer](https://pptr.dev/)
+- [read-excel-file](https://www.npmjs.com/package/read-excel-file)
+- [File System](https://nodejs.org/api/fs.html)
+
+Installation of all libraries will be the same once Node js is installed. To install Node js, simply navigate to the [following website](https://nodejs.org/en/download/) and install the appropriate version of the installer. Afterwards, you should have a Node js console as an exe on your computer, and you can run node commands from it. To install different libraries, simply type "npm i \<library name\>." In order to install all these libraries, the following commands should be run:
+- npm i puppeteer
+- npm i read-excel-file
+- npm i fs
+
+After Node js and all three libraries are installed, you should be able to navigate into the directory of the downloaded code using the Node js console, and type "node ./run.js" to execute the script. 
+
 ## **Code Overview**
 The code is broken into 3 main sections, with the last section being further broken into 4 sections
 
