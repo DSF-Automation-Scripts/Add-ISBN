@@ -1,7 +1,6 @@
-# DSF Product Altering Script
+# Add ISBN
 ## **Intro**
-This script is designed to perform simple, mass changes to DSF. Changes such as altering a single setting, or adding one additional field of information that would normally take massive amounts of man-hours can be done in the background quickly by this script. This document outlines the general procedures behind altering the code to work for specific cases, and maintaining code through future updates and changes to the DSF website
-
+This script is designed to take a spreadsheet containing the names of products and their respective ISBN's, and then add ISBN's to every product contained in the spreadsheet.
 
 ## **Installation**
 This script relies on the following libraries to work:
