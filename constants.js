@@ -1,13 +1,13 @@
 module.exports = {
     //URL of the starting page
-    URL: "DSF Product Page URL",
+    URL: "<DSF Product Page URL>",
 
     //System file path to the Chrome executable
-    CHROME_PATH: "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+    CHROME_PATH: "<Log to Chrome .exe>",
 
     //System file path to both log and error log
-    LOG_PATH: "C:/Users/mco20/Documents/DSF-Scripts/addISBN/COV/log.txt",
-    ERROR_LOG_PATH: "C:/Users/mco20/Documents/DSF-Scripts/addISBN/COV/errorlog.txt",
+    LOG_PATH: "<Path to desired log location>",
+    ERROR_LOG_PATH: "<Path to desired error log location>",
 
     //Show advanced login options button on main login screen of DSF 
     DSF_SHOW_ADVANCED_LOGIN_OPTIONS: "body > div.wrapper.ng-scope > div > div:nth-child(1) > div.login-single.ng-scope > div:nth-child(3) > div > div.modalcontent > form > div:nth-child(4) > a",
@@ -62,9 +62,6 @@ module.exports = {
     SPREADSHEET_PATH: "Spreadsheet path",
 
     //Indexes of values on the spreadsheets
-    SPREADSHEET_ISBN_INDEX: 1,
-    SRPEADSHEET_PAGE_COUNT_INDEX: 2,
-    SPREADSHEET_BINDING_INDEX: 3,
-    SPREADSHEET_SIZE_INDEX: 4,
-    SPREADSHEET_TITLE_INDEX: 5
+    SPREADSHEET_ISBN_INDEX: 1, //Index of ISBN column in spreadsheet
+    SPREADSHEET_TITLE_INDEX: 5 //Index of title column in spreadsheet
 };
